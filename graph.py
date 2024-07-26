@@ -21,7 +21,7 @@ for j in range(i):
           "cyan-c   white-w ")
     c = input("Enter color: ")
 
-    f=open(r"C:/Users/saish/Downloads/Peltier/"+q, 'r')
+    f=open(r"file_path"+q, 'r')
     temp=[]
     time=[]
     for row in f:
